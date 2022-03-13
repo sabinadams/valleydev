@@ -18,7 +18,7 @@ export const links: LinksFunction = () => [
 ];
 
 export const meta: MetaFunction = () => {
-  return { title: "New Remix App" };
+  return { title: "Valley Dev" };
 };
 
 export default function App() {
