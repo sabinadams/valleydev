@@ -19,7 +19,7 @@ export function Router() {
                 <Divider />
                 <LinkOption element={AiFillInfoCircle} />
                 <div className="flex-1"></div>
-                <LinkOption element={FaGithub} />
+                <LinkOption element={FaGithub} onClick={() => window.open('https://www.github.com')} />
                 <Divider />
                 <LinkOption element={FaDiscord} onClick={() => window.open('https://www.discord.com')} />
             </div>
