@@ -21,7 +21,7 @@ export function Router() {
                 <div className="flex-1"></div>
                 <LinkOption element={FaGithub} onClick={() => window.open('https://www.github.com')} />
                 <Divider />
-                <LinkOption element={FaDiscord} onClick={() => window.open('https://www.discord.com')} />
+                <LinkOption element={FaDiscord} onClick={() => window.open('https://discord.gg/DcgfW9fsfe')} />
             </div>
         </div>
     )
