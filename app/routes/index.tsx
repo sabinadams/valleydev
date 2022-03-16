@@ -3,19 +3,21 @@ import { Technologies } from '~/components/Technologies';
 import { Router } from '~/components/Router'
 export default function Index() {
   return (
-    <div className="h-full">
+    <div className="h-screen overflow-scroll snap-y">
       <Router />
-      <button className="absolute z-20 top-8 right-8 rounded-2xl bg-emerald-400 px-4 py-2 text-slate-600 font-semibold transform transition duration-300 ease-in-out  hover:bg-emerald-300 hover:-translate-y-1">Sign Up For News</button>
-      {/* Hero */}
-      <Hero />
+      <div className="h-full w-full snap-start">
+        <button className="absolute z-20 top-8 right-8 rounded-2xl bg-emerald-400 px-4 py-2 text-slate-600 font-semibold transform transition duration-300 ease-in-out  hover:bg-emerald-300 hover:-translate-y-1">Sign Up For News</button>
+        {/* Hero */}
+        <Hero />
+      </div>
 
       {/* Favorite Technologies */}
-      <div className="bg-gray-200 px-6 py-4" id="test">
+      <div className="bg-gray-200 px-6 py-4 snap-start" id="test">
         <Technologies />
       </div>
 
       {/* About */}
-      <div className="bg-slate-400 min-h-screen px-4 py-8">
+      <div className="min-h-screen py-8 texturedBackground bg-slate-400 snap-start">
         <h2 className="text-center my-8 font-extrabold text-4xl text-white">What Is Valley Dev?</h2>
 
         <div className="px-10 grid grid-cols-1 md:grid-cols-2 space-y-16">

@@ -31,3 +31,20 @@
   background-position: center center;
   opacity: 0.05;
 }
+
+.texturedBackground,
+.texturedBackground * {
+  position: relative;
+}
+
+.texturedBackground::before {
+  content: "";
+  background-image: url(/images/bg-texture.svg);
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.3;
+}
