@@ -6,22 +6,42 @@ export default function Index() {
     <div className="h-full">
       <Router />
       <button className="absolute z-20 top-8 right-8 rounded-2xl bg-emerald-400 px-4 py-2 text-slate-600 font-semibold transform transition duration-300 ease-in-out  hover:bg-emerald-300 hover:-translate-y-1">Sign Up For News</button>
+      {/* Hero */}
       <Hero />
 
+      {/* Favorite Technologies */}
       <div className="bg-gray-200 px-6 py-4" id="test">
         <Technologies />
       </div>
 
-      <div className="bg-slate-400 h-screen p-4">
+      {/* About */}
+      <div className="bg-slate-400 min-h-screen px-4 py-8">
         <h2 className="text-center my-8 font-extrabold text-4xl text-white">What Is Valley Dev?</h2>
 
-        <div className="grid grid-cols-2">
-          <div>1</div>
-          <div>2</div>
-          <div>1</div>
-          <div>2</div>
+        <div className="px-10 grid grid-cols-1 md:grid-cols-2 space-y-16">
+          <div>
+            <h2 className="my-8 font-extrabold text-3xl text-slate-600">A place to meet other developers in your community</h2>
+            <p className="font-semibold text-slate-100">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti similique vel vitae consectetur ad assumenda commodi, itaque at, animi quam quaerat voluptatum totam. Quia vero obcaecati mollitia a quisquam! Nam!</p>
+          </div>
+          <div className="flex justify-center items-center">Logo</div>
+          <div className="flex justify-center items-center">Logo</div>
+          <div>
+            <h2 className="text-right my-8 font-extrabold text-3xl text-slate-600">A resource to help grow and expand your skills</h2>
+            <p className="text-right font-semibold text-slate-100">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic iure nemo tempore, saepe, nam beatae temporibus, eveniet officia pariatur quam laboriosam rem deleniti ipsum assumenda eius quas voluptas architecto perferendis.</p>
+          </div>
+          <div>
+            <h2 className="my-8 font-extrabold text-3xl text-slate-600">An opportunity to network and get your name out there</h2>
+            <p className="font-semibold text-slate-100">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic iure nemo tempore, saepe, nam beatae temporibus, eveniet officia pariatur quam laboriosam rem deleniti ipsum assumenda eius quas voluptas architecto perferendis.</p>
+          </div>
+          <div className="flex justify-center items-center">Logo</div>
         </div>
       </div>
+
+      {/* Contact */}
+      <div className="bg-gray-200 h-screen p-4">
+
+      </div>
+      {/* Footer */}
     </div>
   );
 }
