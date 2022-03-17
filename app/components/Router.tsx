@@ -12,16 +12,19 @@ export function Router() {
                 <span className="w-2 bg-slate-600 h-full rounded-xl"></span>
             </div>
 
-            <div className="w-16 bg-slate-400 p-4 gap-y-4 text-slate-600 text-3xl items-center justify-start shrink-0 h-2/3 tranform transition duration-300 ease-in-out -translate-x-96 rounded-2xl group-hover:translate-x-0 flex flex-col shadow-lg">
-                <LinkOption element={FaHome} />
-                <Divider />
-                <LinkOption element={FaCode} />
-                <Divider />
-                <LinkOption element={AiFillInfoCircle} />
-                <div className="flex-1"></div>
-                <LinkOption element={FaGithub} onClick={() => window.open('https://www.github.com')} />
-                <Divider />
-                <LinkOption element={FaDiscord} onClick={() => window.open('https://discord.gg/DcgfW9fsfe')} />
+
+            <div className="tranform transition duration-500 ease-in-out -translate-x-96 scale-75 group-hover:translate-x-0">
+                <div className="w-16 bg-slate-400 p-4 gap-y-4 text-slate-600 text-3xl items-center justify-start shrink-0 h-2/3 tranform transition duration-700 ease-out delay-200 group-hover:scale-150 rounded-2xl flex flex-col shadow-lg">
+                    <LinkOption element={FaHome} />
+                    <Divider />
+                    <LinkOption element={FaCode} />
+                    <Divider />
+                    <LinkOption element={AiFillInfoCircle} />
+                    <div className="flex-1"></div>
+                    <LinkOption element={FaGithub} onClick={() => window.open('https://www.github.com')} />
+                    <Divider />
+                    <LinkOption element={FaDiscord} onClick={() => window.open('https://discord.gg/DcgfW9fsfe')} />
+                </div>
             </div>
         </div>
     )
