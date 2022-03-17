@@ -17,25 +17,25 @@ export default function Index() {
       </div>
 
       {/* About */}
-      <div className="min-h-screen py-8 texturedBackground bg-slate-400 snap-start">
+      <div className="min-h-screen py-8 px-4 md:px-24 texturedBackground bg-slate-400 snap-start">
         <h2 className="text-center my-8 font-extrabold text-4xl text-white">What Is Valley Dev?</h2>
 
-        <div className="px-10 grid grid-cols-1 md:grid-cols-2 space-y-16">
-          <div>
+        <div className="px-10 grid grid-cols-1 md:grid-cols-3 space-y-16">
+          <div className="col-span-1 md:col-span-2">
             <h2 className="my-8 font-extrabold text-3xl text-slate-600">A place to meet other developers in your community</h2>
             <p className="font-semibold text-slate-100">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti similique vel vitae consectetur ad assumenda commodi, itaque at, animi quam quaerat voluptatum totam. Quia vero obcaecati mollitia a quisquam! Nam!</p>
           </div>
-          <div className="flex justify-center items-center">Logo</div>
-          <div className="flex justify-center items-center">Logo</div>
-          <div>
+          <div className="flex justify-center items-center col-span-1">Logo</div>
+          <div className="flex justify-center items-center col-span-1">Logo</div>
+          <div className="col-span-1 md:col-span-2">
             <h2 className="text-right my-8 font-extrabold text-3xl text-slate-600">A resource to help grow and expand your skills</h2>
             <p className="text-right font-semibold text-slate-100">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic iure nemo tempore, saepe, nam beatae temporibus, eveniet officia pariatur quam laboriosam rem deleniti ipsum assumenda eius quas voluptas architecto perferendis.</p>
           </div>
-          <div>
+          <div className="col-span-1 md:col-span-2">
             <h2 className="my-8 font-extrabold text-3xl text-slate-600">An opportunity to network and get your name out there</h2>
             <p className="font-semibold text-slate-100">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic iure nemo tempore, saepe, nam beatae temporibus, eveniet officia pariatur quam laboriosam rem deleniti ipsum assumenda eius quas voluptas architecto perferendis.</p>
           </div>
-          <div className="flex justify-center items-center">Logo</div>
+          <div className="flex justify-center items-center col-span-1">Logo</div>
         </div>
       </div>
 
