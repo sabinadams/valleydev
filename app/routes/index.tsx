@@ -3,7 +3,7 @@ import { Technologies } from '~/components/Technologies';
 import { Router } from '~/components/Router'
 export default function Index() {
   return (
-    <div className="h-screen overflow-scroll snap-y">
+    <div className="h-screen overflow-y-scroll snap-y">
       <Router />
       <div className="h-full w-full snap-start">
         <button className="absolute z-20 top-8 right-8 rounded-2xl bg-emerald-400 px-4 py-2 text-slate-600 font-semibold transform transition duration-300 ease-in-out  hover:bg-emerald-300 hover:-translate-y-1">Sign Up For News</button>
