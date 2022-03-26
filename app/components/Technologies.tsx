@@ -24,27 +24,27 @@ import {
 export function Technologies() {
     return <>
         <h2 className="text-center font-extrabold text-4xl text-slate-600 mb-6"> Some Of Our Favorite Technologies</h2>
-        <div className="flex flex-wrap gap-10 justify-center p-8 bg-gray-200">
-            <SiNextdotjs className="text-5xl w-24" height={48} width={48} fill="gray" />
-            <SiReact className="text-5xl w-24" height={48} width={48} fill="gray" />
-            <SiNodedotjs className="text-5xl w-24" height={48} width={48} fill="gray" />
-            <SiVuedotjs className="text-5xl w-24" height={48} width={48} fill="gray" />
-            <SiAngular className="text-5xl w-24" height={48} width={48} fill="gray" />
-            <SiTailwindcss className="text-5xl w-24" height={48} width={48} fill="gray" />
-            <SiExpress className="text-5xl w-24" height={48} width={48} fill="gray" />
-            <SiNestjs className="text-5xl w-24" height={48} width={48} fill="gray" />
-            <SiPrisma className="text-5xl w-24" height={48} width={48} fill="gray" />
-            <SiNx className="text-5xl w-24" height={48} width={48} fill="gray" />
-            <SiMongodb className="text-5xl w-24" height={48} width={48} fill="gray" />
-            <SiMysql className="text-5xl w-24" height={48} width={48} fill="gray" />
-            <SiGraphql className="text-5xl w-24" height={48} width={48} fill="gray" />
-            <SiMicrosoftsqlserver className="text-5xl w-24" height={48} width={48} fill="gray" />
-            <SiFastify className="text-5xl w-24" height={48} width={48} fill="gray" />
-            <SiRedux className="text-5xl w-24" height={48} width={48} fill="gray" />
-            <SiSvelte className="text-5xl w-24" height={48} width={48} fill="gray" />
-            <SiVercel className="text-5xl w-24" height={48} width={48} fill="gray" />
-            <SiNetlify className="text-5xl w-24" height={48} width={48} fill="gray" />
-            <SiDocker className="text-5xl w-24" height={48} width={48} fill="gray" />
+        <div className="flex flex-wrap gap-10 justify-center py-8 px-60">
+            <SiNextdotjs className="fill-slate-600 transition duration-300 ease-in-out opacity-60 hover:-translate-y-2 hover:opacity-100 hover:fill-emerald-400 text-5xl w-24" height={48} width={48} />
+            <SiReact className="fill-slate-600 transition duration-300 ease-in-out opacity-60 hover:-translate-y-2 hover:opacity-100 hover:fill-emerald-400 text-5xl w-24" height={48} width={48} />
+            <SiNodedotjs className="fill-slate-600 transition duration-300 ease-in-out opacity-60 hover:-translate-y-2 hover:opacity-100 hover:fill-emerald-400 text-5xl w-24" height={48} width={48} />
+            <SiVuedotjs className="fill-slate-600 transition duration-300 ease-in-out opacity-60 hover:-translate-y-2 hover:opacity-100 hover:fill-emerald-400 text-5xl w-24" height={48} width={48} />
+            <SiAngular className="fill-slate-600 transition duration-300 ease-in-out opacity-60 hover:-translate-y-2 hover:opacity-100 hover:fill-emerald-400 text-5xl w-24" height={48} width={48} />
+            <SiTailwindcss className="fill-slate-600 transition duration-300 ease-in-out opacity-60 hover:-translate-y-2 hover:opacity-100 hover:fill-emerald-400 text-5xl w-24" height={48} width={48} />
+            <SiExpress className="fill-slate-600 transition duration-300 ease-in-out opacity-60 hover:-translate-y-2 hover:opacity-100 hover:fill-emerald-400 text-5xl w-24" height={48} width={48} />
+            <SiNestjs className="fill-slate-600 transition duration-300 ease-in-out opacity-60 hover:-translate-y-2 hover:opacity-100 hover:fill-emerald-400 text-5xl w-24" height={48} width={48} />
+            <SiPrisma className="fill-slate-600 transition duration-300 ease-in-out opacity-60 hover:-translate-y-2 hover:opacity-100 hover:fill-emerald-400 text-5xl w-24" height={48} width={48} />
+            <SiNx className="fill-slate-600 transition duration-300 ease-in-out opacity-60 hover:-translate-y-2 hover:opacity-100 hover:fill-emerald-400 text-5xl w-24" height={48} width={48} />
+            <SiMongodb className="fill-slate-600 transition duration-300 ease-in-out opacity-60 hover:-translate-y-2 hover:opacity-100 hover:fill-emerald-400 text-5xl w-24" height={48} width={48} />
+            <SiMysql className="fill-slate-600 transition duration-300 ease-in-out opacity-60 hover:-translate-y-2 hover:opacity-100 hover:fill-emerald-400 text-5xl w-24" height={48} width={48} />
+            <SiGraphql className="fill-slate-600 transition duration-300 ease-in-out opacity-60 hover:-translate-y-2 hover:opacity-100 hover:fill-emerald-400 text-5xl w-24" height={48} width={48} />
+            <SiMicrosoftsqlserver className="fill-slate-600 transition duration-300 ease-in-out opacity-60 hover:-translate-y-2 hover:opacity-100 hover:fill-emerald-400 text-5xl w-24" height={48} width={48} />
+            <SiFastify className="fill-slate-600 transition duration-300 ease-in-out opacity-60 hover:-translate-y-2 hover:opacity-100 hover:fill-emerald-400 text-5xl w-24" height={48} width={48} />
+            <SiRedux className="fill-slate-600 transition duration-300 ease-in-out opacity-60 hover:-translate-y-2 hover:opacity-100 hover:fill-emerald-400 text-5xl w-24" height={48} width={48} />
+            <SiSvelte className="fill-slate-600 transition duration-300 ease-in-out opacity-60 hover:-translate-y-2 hover:opacity-100 hover:fill-emerald-400 text-5xl w-24" height={48} width={48} />
+            <SiVercel className="fill-slate-600 transition duration-300 ease-in-out opacity-60 hover:-translate-y-2 hover:opacity-100 hover:fill-emerald-400 text-5xl w-24" height={48} width={48} />
+            <SiNetlify className="fill-slate-600 transition duration-300 ease-in-out opacity-60 hover:-translate-y-2 hover:opacity-100 hover:fill-emerald-400 text-5xl w-24" height={48} width={48} />
+            <SiDocker className="fill-slate-600 transition duration-300 ease-in-out opacity-60 hover:-translate-y-2 hover:opacity-100 hover:fill-emerald-400 text-5xl w-24" height={48} width={48} />
         </div>
     </>
 }

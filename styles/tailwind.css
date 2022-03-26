@@ -47,4 +47,5 @@
   bottom: 0px;
   left: 0px;
   opacity: 0.3;
+  transform: scaleX(-1);
 }
